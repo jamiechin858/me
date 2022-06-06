@@ -1,0 +1,147 @@
+<html>
+  
+    <title> Jamie Chin | Awards</title>
+  
+  <nav>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <li><a href="index.html">About</a>
+  <li><a href="experience.html">Experience</a>
+  <li><a href="projects.html">Projects</a>
+  <li><a href="awards.html">Awards</a>
+</div>
+    
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; </button>
+  <h1 style="font-family:Helvetica" style="font-size:large">Awards</h1>
+  
+  <body>
+
+<div class="row">
+  <div class="column">
+    <h3>Robotics</h3>
+    <p>Westview Robotics Visionary Award (Issued by Westview Robotics - FRC #3341 · June 2022) <br> For the individual who is dedicated to service, mentorship, and the educating of future engineers and business leaders</p>
+    <p>FIRST Dean's List Semi-Finalist (Issued by FIRST Robotics · March 2022)<br>The most prestigious award offered to individuals, celebrating outstanding student leaders whose passion for and effectiveness at <br>attaining FIRST ideals is exemplary and who have achieved personal technical expertise</p>
+    <p>Westview Robotics Perseverance Award (Issued by Westview Robotics - FRC #3341 · June 2021)<br>For the individual who overcomes obstacles no matter the circumstances, always stays positive and inspires the team to keep moving<br> forward (No Obstacles)</p>
+    <p>FIRST Chairman's Award (Issued by FIRST Robotics · March 2021)<br>- The most prestigious award offered to teams celebrates the team that best emulates the values of FIRST, serving as a role model for other teams, and emphasizes the inspiration of passion in STEAM in the younger generation and community
+<br>- Was a part of interview team that conveyed our team's message for this award</p>
+    <p>Varsity Letter (Issued by Westview High School · June 2020)<br>Varsity letters are awarded to robotics students who have demonstrated continued commitment to the team and have gone above and beyond<br> to extend the team's values of diversity and inclusion into the community</p>
+  </div>
+ 
+  <div class="column">
+    <h3>Girls Varsity Tennis</h3>
+    <p>2021 CIF-SDS Runner-Up (Issued by CIF- San Diego Section · December 2021) <br> Awarded to the runner-up team of the CIF-SDS Girls Tennis Team Open Division Championship</p>
+    <p>2021 Palomar League Champions (Issued by North County Conference Athletics · November 2021) <br> Awarded to the top Varsity Girls Tennis Team within the Palomar League</p>
+    <p>Varsity Letter (Issued by Westview High School · June 2021) <br> Varsity letters are awarded to athletes who actively participate within the season by attending practices and matches</p>
+    <p>Westview Tennis "Double trouble" Award (Issued by Westview High School Tennis Department · June 2021)<br> Awarded to best girls varsity doubles team of the season</p>
+    <p>NCCA Palomar League Varsity Girls Tennis Doubles 3rd (Issued by North County Conference Athletics · May 2021)<br> Awarded to third place team within the tournament</p>
+  </div>
+
+    </div>    
+    
+</body>
+  
+</div>
+</html>
+
+<style>
+  
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 30px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+</style>
+
+<script>
+
+ /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+ 
+</script>
